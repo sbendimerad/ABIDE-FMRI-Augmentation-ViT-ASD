@@ -30,7 +30,9 @@ The dataset used is the publicly available **ABIDE dataset**, which includes fMR
 - `Extracted_fmri_Data/`: Directory where processed and flattened fMRI files are stored.
   - `Training_Data_Pheno.csv`: CSV file for training data, containing file paths and corresponding labels (ASD or control).
   - `Validation_Data_Pheno.csv`: CSV file for validation data, similarly containing file paths and labels.
-  - `Total_Data_Pheno.csv`: Full dataset CSV file containing all subjects used for splitting into train/validation sets.
+  - `Total_Data_Pheno.cs`T: Full dataset CSV file containing all subjects used for splitting into train/validation sets.
+- `prepare_fmri_dataset.ipynb`: A Juyter notebook to extract and preprocess the data (A first draft, need to be recreate in a .py script with classes)
+- `ViT_Benchmark_fMRI.ipynb` : A jupyter notebook to benchmark ViT models (A first draft, need to be recreate in a .py script with classes)
 
 ---
 
